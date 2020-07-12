@@ -7,6 +7,7 @@
     solve("abbc") = False, because b does not occur once.
     solve("v") = True
  */
+
 import java.util.Arrays;
 
 class ConsecutiveLetters {
