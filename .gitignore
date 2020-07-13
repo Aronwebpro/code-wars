@@ -1,0 +1,14 @@
+# Project ignored files
+node_modules
+dist
+.env.development
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
