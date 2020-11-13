@@ -37,22 +37,3 @@ class LongestConsec {
         return String.join("", result);
     }
 }
-
-
-/**
- * max diff - easy 7kyu
- * You must implement a function maxDiff that return the difference between the biggest and the smallest value in a list(lst) received as parameter.
- * If the list is empty or contains a single element, return 0.
- * The list(lst) is not sorted.
- */
-
-import java.util.Arrays;
-
-public class Kata {
-
-  public static int maxDiff(int[] lst) {
-    if (lst.length == 0) return 0;
-    Arrays.sort(lst);
-    return lst[lst.length-1] - lst[0];
-  }
-}
